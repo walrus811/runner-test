@@ -6,6 +6,7 @@ on:
     
 jobs:
   build:
-   uses: mscoutermarsh/ascii-art-action@1.0.1
-   with:
-    text: 'SHIP IT'
+    runs-on: ubuntu-latest
+    steps:
+      - name: hello
+        run: echo Hello, world!
